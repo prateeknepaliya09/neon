@@ -21,7 +21,7 @@ additional arguments to be added using the argparse library
 methods.  Lower priority defaults can also be read from a configuration file
 (specified by the -c command line argument).
 """
-import configargparse
+import configparser
 import logging
 from logging.handlers import RotatingFileHandler
 import numpy as np
